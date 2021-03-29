@@ -27,5 +27,5 @@ public interface SolvingMethod {
         return new Answer(I1, n);
     }
 
-    double getIntegral(int i, double a, double b, Function<Double, Double> function);
+    double getIntegral(int n, double a, double b, Function<Double, Double> function);
 }

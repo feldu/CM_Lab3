@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 @Slf4j
 public class Main {
-    private static final String commandFormat = "CM_Lab3 [-lrmts] [-i file_path] [-o file_path]\n" +
+    private static final String commandFormat = "CM_Lab3 [-lrmts]\n" +
             "-l Метод прямоугольников (левый)\n" +
             "-r Метод прямоугольников (правый)\n" +
             "-m Метод прямоугольников (средний)\n" +

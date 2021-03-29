@@ -10,7 +10,7 @@ import static java.lang.Math.*;
 
 @Getter
 public enum Functions {
-    f1(x -> pow(-x, 3) - 2 * pow(x, 2) + 3 * x + 23, "−x^3 − 2x^2 + 3x + 23 dx"),
+    f1(x -> pow(-x, 3) - 2 * pow(x, 2) + 3 * x + 23, "-x^3 - 2x^2 + 3x + 23 dx"),
     f2(x -> pow(x, 3) - x + 4, "x^3 - x + 4 dx"),
     f3(x -> {
         if (x <= 0) throw new RuntimeException("Не удовлетворяет ОДЗ");
